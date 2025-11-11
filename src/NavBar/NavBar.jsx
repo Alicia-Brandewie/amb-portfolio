@@ -1,11 +1,13 @@
+import './NavBar.css';
+
 function NavBar() {
 
     return (
-        <nav>
+        <nav className='container'>
             <ul>
-                <li>About Me</li>
-                <li>Portfolio</li>
-                <li>Social</li>
+                <p>About Me</p>
+                <p>Portfolio</p>
+                <p>Social</p>
 
                 {/* 
                 li><link to=''>About Me</link></li>

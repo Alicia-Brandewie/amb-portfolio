@@ -10,7 +10,7 @@ function NavBar() {
                 <p>Social</p>
 
                 {/* 
-                li><link to=''>About Me</link></li>
+                <li><link to=''>About Me</link></li>
                 <li><link to=''>Portfolio</link></li>
                 <li><link to=''>Social</link></li> */}
             </ul>

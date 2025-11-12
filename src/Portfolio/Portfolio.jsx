@@ -7,12 +7,14 @@ function Portfolio() {
             <div class='card'>
                 <img src='' className="logo" alt="MM game logo" />
                 <h1>Memory Maven</h1>
-                <p>About this really cool thing I built...</p>
+                <p>The classic matching game, featuring randomly generated arrangment of symbols, a limited amount of attempts, and rest. </p>
                 <ul>
-                    <li>Language</li>
-                    <li>Tool</li>
-                    <li>Another Competency</li>
+                    <li>JavaScript</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
                 </ul>
+                    <a href='https://alicia-brandewie.github.io/memory-maven/'>Play</a>
+                    <a href='https://github.com/Alicia-Brandewie/memory-maven'>Repo</a>
             </div>
 
             <div class='card'>

@@ -1,7 +1,9 @@
 .card {
-    background-color: pink;
+    background-color: rgb(15, 0, 3);
+    display: flex;
+    width: 500px;
 }
 
 .card:hover {
-    filter: drop-shadow(0 0 2em #61dafbaa);
+    filter: drop-shadow(0 0 2em #81d5ecaa);
 }

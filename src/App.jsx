@@ -10,13 +10,10 @@ function App() {
     <>
       <NavBar/>
       <class>
-      <h1>Alicia Brandewie</h1>
+        <h2> Hello! </h2>
       <div className="card">
-        <button>
-          count is cute but [currently] useless
-        </button>
-        <p>
-        Site under construction
+              <h1>Alicia Brandewie</h1>
+        <p> I'm Alicia, a full-stack software engineer. 
         </p>
       </div>
       <p className="read-the-docs">

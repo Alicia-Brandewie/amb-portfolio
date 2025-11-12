@@ -20,34 +20,46 @@ function Portfolio() {
             <div class='card'>
                 <img src='' className="logo" alt="Poppins' logo" />
                 <h1>Poppins' Bag</h1>
-                <p>About this really cool thing I built...</p>
+                <p>A real-world solution, this application lets you track your event supplies</p>
                 <ul>
-                    <li>Language</li>
-                    <li>Tool</li>
-                    <li>Another Competency</li>
+                    <li>Express Server</li>
+                    <li>MongoDB</li>
+                    <li>JavaScript</li>
+                    <li>Node</li>
+                    <li>EJS</li>
                 </ul>
+                  <a href='https://poppinss-bag-8009da65f7ed.herokuapp.com/'>Organize</a>
+                    <a href='https://github.com/Alicia-Brandewie/poppinss_bag'>Repo</a>
             </div>
 
             <div class='card'>
                 <img src='' className="logo" alt="SoundCircle logo" />
                 <h1>SoundCircle</h1>
-                <p>About this really cool thing I built...</p>
+                <p>Catalogue your favorite songs and get social with other users</p>
                 <ul>
-                    <li>Language</li>
-                    <li>Tool</li>
-                    <li>Another Competency</li>
+                    <li>Express</li>
+                    <li>React</li>
+                    <li>MongoDB</li>
+        <a href='https://soundcircle.netlify.app/'>Circle</a>
+                    <a href='https://github.com/OliverPhillips1229/sound-circle-front-end'>Front-End Repo</a>
+          
+                    <a href='https://github.com/mrodavis/sound-circle-be'>Back-End Repo</a>
+
                 </ul>
             </div>
 
             <div class='card'>
                 <img src='' className="logo" alt="NAVIgator logo" />
                 <h1>NAVIgator</h1>
-                <p>About this really cool thing I built...</p>
+                <p>Travel compainion app for planing</p>
                 <ul>
-                    <li>Language</li>
-                    <li>Tool</li>
-                    <li>Another Competency</li>
+                    <li>Python</li>
+                    <li>PostgeSQL</li>
+                    <li>Django</li>
                 </ul>
+                        <a href='https://navi-gator-app-939c9d3f9b64.herokuapp.com//'>Explore</a>
+                    <a href='https://github.com/Alicia-Brandewie/NAVIgator'>Repo</a>
+          
             </div>
 
         </main>

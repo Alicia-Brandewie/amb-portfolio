@@ -7,12 +7,12 @@ function NavBar() {
             <ul>
                 <p>About Me</p>
                 <p>Portfolio</p>
-                <p>Social</p>
+                <p>Contact</p>
 
                 {/* 
                 <li><link to=''>About Me</link></li>
                 <li><link to=''>Portfolio</link></li>
-                <li><link to=''>Social</link></li> */}
+                <li><link to=''>footer</link></li> */}
             </ul>
         </nav>
     )

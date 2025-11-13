@@ -8,6 +8,7 @@
 .card {
   padding: 2em;
   margin: 2em;
+  display: flex;
 }
 
 
@@ -16,5 +17,6 @@
 }
 
 .headshot {
-  
+    max-width: 15%;
+    border-radius: 50%;
 }

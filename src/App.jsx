@@ -10,7 +10,7 @@ function App() {
     <>
       <NavBar/>
       <div className="card">
-
+      <img src='src/assets/look_ahead.jpg' class='headshot' alt="Headshot of Alicia" />
         <h2> Hello! </h2>
         <h1>Alicia Brandewie</h1>
         <p> I'm Alicia, a full-stack software engineer.</p>

@@ -1,10 +1,3 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
-
 .card {
   padding: 2em;
   margin: 2em;
@@ -12,11 +5,7 @@
 }
 
 
-.read-the-docs {
+.coming-soon {
   color: #888;
 }
 
-.headshot {
-    max-width: 15%;
-    border-radius: 50%;
-}

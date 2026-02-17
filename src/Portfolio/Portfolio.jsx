@@ -3,7 +3,7 @@ import './Portfolio.css'
 function Portfolio() {
 
     return (
-        <main>
+        <main id='main'>
             <div class='project-card'>
                 <h1>Memory Maven</h1>
                 <img src='' className="logo" alt="MM game logo" />
@@ -14,8 +14,8 @@ function Portfolio() {
                     <p class='skills'>CSS</p>
                 </div>
                 <div class='project-links'>
-                    <a class='link-content' href='https://alicia-brandewie.github.io/memory-maven/'>Play</a>
-                    <a class='link-content' href='https://github.com/Alicia-Brandewie/memory-maven'>Repo</a>
+                    <a class='link-content' href='https://alicia-brandewie.github.io/memory-maven/'>Click anywhere on the tile to play</a>
+                    <a class='link-content' href='https://github.com/Alicia-Brandewie/memory-maven'>Click here to visit the repo</a>
                 </div>
             </div>
 

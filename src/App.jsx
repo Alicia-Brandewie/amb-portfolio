@@ -14,7 +14,7 @@ function App() {
         <h2> Hello! </h2>
         <h1>Alicia Brandewie</h1>
         <p> I'm Alicia, a full-stack software engineer.</p>
-        <p className="read-the-docs">
+        <p className="coming-soon">
           Coming soon: more information!
         </p>
       </div>

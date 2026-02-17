@@ -1,28 +1,20 @@
+#main {
+    display: flex;
+    flex-wrap: wrap;
+    flex:0 1 auto;
+}
+
 .project-card {
     background-color: rgb(33, 32, 32);
-    display: grid;
+    display: gird;
     margin: 50px;
     justify-content: center;
+    /* max-width: fit-content; */
+    /* flex: 0 1 auto; */
 }
 
 .project-card:hover {
     filter: drop-shadow(0 0 2em rgb(10, 120, 83));
-}
-
-.skills-box {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.skills {
-    background-color: aquamarine;
-    margin: 10px;
-    flex-wrap: wrap;
-    align-content: center;
-    padding: 5px;
-    max-width: fit-content;
-    border-radius: 40px;
 }
 
 .project-links {

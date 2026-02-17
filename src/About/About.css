@@ -1,28 +1,9 @@
 .about-container {
     display: flex;
+
+    padding: 1em;
 }
 
 .about-text {
-    margin-right: 100px;
-}
-
-.headshot {
-    max-width: 15%;
-    border-radius: 50%;
-}
-
-.skills-box {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.skills {
-    background-color: rgb(10, 120, 83);
-    margin: 10px;
-    flex-wrap: wrap;
-    align-content: center;
-    padding: 5px;
-    max-width: fit-content;
-    border-radius: 40px;
+    margin: 2em;
 }

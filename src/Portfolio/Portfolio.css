@@ -7,22 +7,24 @@
 .project-card {
     background-color: rgb(33, 32, 32);
     display: gird;
-    margin: 50px;
+    margin: 1em;
+    border: 1em;
+    padding: 1em;
     justify-content: center;
     /* max-width: fit-content; */
     /* flex: 0 1 auto; */
 }
 
 .project-card:hover {
-    filter: drop-shadow(0 0 2em rgb(10, 120, 83));
+    filter: drop-shadow(0 0 2em #2b8272);
 }
 
 .project-links {
     display: flex;
     justify-content: center;
-    margin: 10px;
+    margin: 1em;
 }
 
 .link-content {
-    margin: 10px;
+    margin: 1em;
 }

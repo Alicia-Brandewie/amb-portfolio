@@ -14,7 +14,7 @@ function Footer() {
                 <img src='src/assets/GitHub_Invertocat_White.svg' className="company-logo" alt="GitHub icon" />
             </a>
 
-                        <a href='' target="_blank">
+                        <a href='mailto:alicia.brandewie@gmail.com' target="_blank">
                 <img src='src/assets/email_icon.png' className="company-logo" alt="email icon" />
             </a>
 </div>

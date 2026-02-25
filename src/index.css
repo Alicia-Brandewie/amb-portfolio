@@ -3,7 +3,9 @@
   line-height: 1.5;
   font-weight: 400;
   color: white ;
-    background-color: black;
+  background-color: black;
+  /* top: 10em; */
+  --nav-container-h: 2em; /* keep this in sync with the navbar height */
 
   background-image: url('/src/assets/look_up.jpg');
   background-size: 25em;
@@ -30,6 +32,7 @@ a:hover {
 body {
   display: flex;
   place-items: center;
+  margin:0;
   /* min-width: 320px;
   min-height: 100vh; */
 }

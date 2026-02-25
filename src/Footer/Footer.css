@@ -5,7 +5,8 @@
 }
 
 #contact{
-      border: 1em;
+   padding: 10px 0;
+    scroll-margin-top:calc(var(--nav-container-h) + 10px);  
 }
 
 .footer-container{

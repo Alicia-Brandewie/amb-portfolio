@@ -1,6 +1,11 @@
+#about {
+   /* padding-top: .5em; */
+    scroll-margin-top:2em;  
+}
+
 .about-container {
     display: flex;
-    padding: 1em;
+   
 }
 
 .about-text {

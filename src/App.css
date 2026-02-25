@@ -1,5 +1,9 @@
+.main {
+  padding-top:calc(var(--nav-container-h) + .1em);
+}
+
 .card {
-  padding: 2em;
+  /* padding: 2em; */
   margin: 2em;
 }
 

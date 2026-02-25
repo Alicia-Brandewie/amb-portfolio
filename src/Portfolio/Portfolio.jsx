@@ -58,7 +58,7 @@ function Portfolio() {
                 <div class='project-card'>
                     <h1>NAVIgator</h1>
                     <img src='' className="logo" alt="NAVIgator logo" />
-                    <p>Travel compainion app for planing</p>
+                    <p>Travel compainion app for planning</p>
                     <div class='skills-box'>
                         <p class='skills'>Python</p>
                         <p class='skills'>PostgreSQL</p>

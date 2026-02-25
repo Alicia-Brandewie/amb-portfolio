@@ -5,8 +5,8 @@
 }
 
 #contact{
-   padding: 10px 0;
-    scroll-margin-top:calc(var(--nav-container-h) + 10px);  
+   /* padding: 10px 0; */
+    scroll-margin-top:6vh;  
 }
 
 .footer-container{

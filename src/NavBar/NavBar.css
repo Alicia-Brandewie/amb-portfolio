@@ -2,16 +2,19 @@
     position: sticky;
     top: 0;
     display: flex;
-    height: var(--nav-container-h);
-    gap: 1em;
-    padding:0 1em;
+    height: 5vh;
+    /* height: var(--nav-container-h); */
+
+    /* gap: 1em; */
+    /* padding:0 1em; */
 
     border-bottom: 1px solid #2B8272;
-    margin:1em;
-    width: stretch;
+    /* margin:0 1em; */
+  /* max-width: 100vw; */
     background-color: black;
     align-content: flex-start;
-    z-index:1000; /* ensures it stays above content */
+    z-index:100; 
+        /* arbitary large number to ensure ensures it has highest stacking position*/
 }
 
 .nav-container ul {
@@ -20,12 +23,12 @@
     justify-content: flex-end;
     align-items: center;
     width: 100%;
-    margin: 0;
+    /* margin: 0; */
 }
 
 .nav-container a {
     text-align: right;
-    margin: .5em;
+    /* margin: .5em; */
     color: white;
 }
 

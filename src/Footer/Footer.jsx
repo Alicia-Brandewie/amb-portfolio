@@ -5,7 +5,7 @@ function Footer() {
     return (
         <>
         <div class='footer-container'>
-        <h2 id='contact'> Get in touch:</h2>
+        <h1 id='contact'> Get in touch:</h1>
             <a href='https://www.linkedin.com/in/alicia-brandewie/' target="_blank">
                 <img src='src/assets/Linkedin_circle_icon.jpg' className="company-logo" alt="LinkedIn icon" />
             </a>

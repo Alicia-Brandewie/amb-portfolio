@@ -4,15 +4,10 @@
   font-weight: 400;
   color: white;
   background-color: black;
-  /* top: 10em; */
-  /* --nav-container-h: 2em; keep this in sync with the navbar height */
-
   background-image: url('/src/assets/look_up.jpg');
   background-size: 30%;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position-x: right;
   background-position-y: bottom;
-
-  /* max-width: 100vw; */
 }

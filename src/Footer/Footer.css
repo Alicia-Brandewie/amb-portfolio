@@ -4,12 +4,12 @@
     padding: 1em;
 }
 
-#contact{
-   /* padding: 10px 0; */
-    scroll-margin-top:6vh;  
+#contact {
+    scroll-margin-top: 6vh;
+    margin-left: 1em;
 }
 
-.footer-container{
+.footer-container {
     display: flex;
     font-weight: bold;
     justify-content: flex-start;

@@ -6,7 +6,100 @@ function Portfolio() {
         <>
             <h1 id='portfolio'>Portfolio</h1>
 
-            <main id='main'>
+            <ul class='main-grid'>
+
+                <li>
+                    <div class="grid-project img-1">
+                        <div class='project-info'>
+                            <h1>NAVIgator</h1>
+                            <h3>Travel compainion app for planning, with whimsical design</h3>
+                            <div class='skills-box'>
+                                <p class='skills'>Python</p>
+                                <p class='skills'>PostgreSQL</p>
+                                <p class='skills'>Django</p>
+                            </div>
+                            <div class='project-links'>
+                                <h3> <a class='link-content' href='https://navi-gator-app-939c9d3f9b64.herokuapp.com//' target="_blank">Start navigating</a></h3>
+                                <h3><a class='link-content' href='https://github.com/Alicia-Brandewie/NAVIgator' target="_blank">Visit the repo</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+
+
+
+                <li>
+                    <div class="grid-project img-2">
+                        <div class='project-info'>
+                            <h1>SoundCircle</h1>
+                            <h3>Catalogue your favorite songs and get social with other users </h3>
+                            <div class='skills-box'>
+                                <p class='skills'>Express Server</p>
+                                <p class='skills'>React</p>
+                                <p class='skills'>MongoDB</p>
+
+
+                            </div>
+                            <div class='project-links'>
+                                <a class='link-content' href='https://soundcircle.netlify.app/' target="_blank">Explore SoundCircle</a>
+                                <a class='link-content' href='https://github.com/OliverPhillips1229/sound-circle-front-end' target="_blank">Visit the front-end repo</a>
+                                <a class='link-content' href='https://github.com/mrodavis/sound-circle-be' target="_blank">Visit the back-end repo</a>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </li>
+
+
+
+
+
+
+
+
+
+                <li>
+                    <div class="grid-project img-3">
+
+                    </div>
+
+                </li>
+
+
+
+                <li>
+                    <div class="grid-project img-4">
+
+                    </div>
+
+                </li>
+            </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            {/* <main id='main'>
 
                 <div class='project-card'>
                     <div class='project-header'>
@@ -82,7 +175,7 @@ function Portfolio() {
                     </div>
                 </div>
 
-            </main>
+            </main> */}
         </>
     )
 }

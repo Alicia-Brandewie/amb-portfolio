@@ -25,6 +25,7 @@
 .nav-container a {
     text-align: right;
     color: white;
+    padding: .5em;
 }
 
 .nav-container a:hover {

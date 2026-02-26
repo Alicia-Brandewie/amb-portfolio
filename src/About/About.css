@@ -1,13 +1,10 @@
 #about {
-    scroll-margin-top:6vh;  
-    margin-left:1em;
+    scroll-margin-top: 6vh;
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
 .about-container {
-    display: flex;
-}
-
-.about-text {
-    margin-left: 2em;
-    margin-right: 2em;
+    margin-left: 4em;
+    margin-right: 4em;
 }

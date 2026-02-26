@@ -15,8 +15,8 @@ function App() {
           <img src='src/assets/eyebrow.jpg' class='headshot' alt="Headshot of Alicia looking to the side with an eyebrow raised" />
           <div className="card-text">
             <h2> Hello! </h2>
-            <h1>Alicia Brandewie</h1>
-            <h3> I'm a full-stack software engineer.</h3>
+            <h1>I'm Alicia Brandewie,</h1>
+            <h3> a full-stack software engineer.</h3>
             <h4 className="coming-soon">
               From poetry to Python: I'm on career 3.0:
             </h4>

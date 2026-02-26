@@ -1,18 +1,26 @@
 .main {
-  /* padding-top:calc(var(--nav-container-h) + .1em); */
   max-width: 100vw;
 }
 
 .card {
-  /* padding: 2em; */
   margin: 2em;
 }
-
 
 .coming-soon {
   color: #888;
 }
 
-#portfolio {
-  border: 1em;
+a {
+  font-weight: 500;
+  color: #C43C54FF;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #FF4C6AFF;
+}
+
+.headshot {
+  max-width: 15%;
+  border-radius: 50%;
 }

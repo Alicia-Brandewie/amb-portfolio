@@ -1,13 +1,15 @@
 #portfolio {
-   /* padding: 10px 0; */
-    scroll-margin-top:6vh;  
+  scroll-margin-top:6vh;  
+    padding-left:1em;
 }
 
 #main {
     display: flex;
     flex-wrap: wrap;
-    flex:0 1 auto;
+    /* flex:0 2 auto; */
+    justify-content: space-around;
 }
+
 
 .project-card {
     background-color: rgb(33, 32, 32);
@@ -16,13 +18,34 @@
     border: 1em;
     padding: 1em;
     justify-content: center;
-    /* max-width: fit-content; */
-    /* flex: 0 1 auto; */
+    filter: drop-shadow(0 0 2em #2b8272);
+    max-width: 95%;
 }
 
-.project-card:hover {
-    filter: drop-shadow(0 0 2em #2b8272);
+@media screen and(min-width:600px) {
+    .project-card{
+        width: 30%;
+    }
 }
+
+.project-header {
+    display:flex;
+    max-width: 90%;
+    margin-top: 1%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.project-header h1 {
+    margin:0;
+    padding-right: 10%;
+}
+
+.logo {
+    max-width: 20%;
+    max-height: 20%;
+}
+
 
 .project-links {
     display: flex;

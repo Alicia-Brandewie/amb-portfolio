@@ -8,3 +8,7 @@
     margin-left: 4em;
     margin-right: 4em;
 }
+
+.about-container p {
+    font-size: 1.2em;
+}

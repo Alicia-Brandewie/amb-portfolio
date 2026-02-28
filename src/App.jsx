@@ -10,39 +10,35 @@ function App() {
     <>
       <NavBar />
 
-      <div className='main'>
-        <div className="card">
+      <div id='main'>
+        <div class="card">
           <img src='src/assets/eyebrow.jpg' class='headshot' alt="Headshot of Alicia looking to the side with an eyebrow raised" />
-          <div className="card-text">
+          <div class="card-text">
             <h2> Hello! </h2>
-            <h1>I'm Alicia Brandewie,</h1>
-            <h3> a full-stack software engineer.</h3>
-            <h4 className="coming-soon">
-              From poetry to Python: I'm on career 3.0:
-            </h4>
-            <p className="coming-soon">
-              after years of writing poetry then guiding platform engineers,
-
-              I'm delighting in the many meanings of "continous improvement / continous development"!
-            </p>
+            <h1>Alicia Brandewie</h1>
+            <h3>I'm a full-stack software engineer,</h3>
+            <h3>who came to Python via people and poetry.</h3>
+            <h3 class="coming-soon">
+              I'm like the API between humans and computers.
+            </h3>
           </div>
         </div>
 
         <h1 id="skills">Technical Skills</h1>
 
         <div class='skills-box'>
-          <p class='skills'>Python</p>
-          <p class='skills'>Express Server</p>
-          <p class='skills'>API</p>
-          <p class='skills'>MongoDB</p>
-          <p class='skills'>Node</p>
-          <p class='skills'>Django</p>
-          <p class='skills'>PostgresQL</p>
-          <p class='skills'>Postman</p>
-          <p class='skills'>EJS</p>
-          <p class='skills'>JavaScript</p>
-          <p class='skills'>CSS</p>
-          <p class='skills'>HTML</p>
+          <h3 class='skills'>Python</h3>
+          <h3 class='skills'>Express Server</h3>
+          <h3 class='skills'>API</h3>
+          <h3 class='skills'>MongoDB</h3>
+          <h3 class='skills'>Node</h3>
+          <h3 class='skills'>Django</h3>
+          <h3 class='skills'>PostgresQL</h3>
+          <h3 class='skills'>Postman</h3>
+          <h3 class='skills'>EJS</h3>
+          <h3 class='skills'>JavaScript</h3>
+          <h3 class='skills'>CSS</h3>
+          <h3 class='skills'>HTML</h3>
         </div>
 
         <About />

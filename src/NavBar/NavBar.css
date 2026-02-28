@@ -6,8 +6,6 @@
     width: 100vw;
     left:0;
     border-bottom: 1px solid #2B8272;
-        /* filter: drop-shadow(#2b8272 .5vh .5vh 10px); */
-        /* box-shadow: 0 0 5px 5px #2B8272; */
     background-color: black;
     align-content: flex-start;
     z-index:100; 
@@ -23,6 +21,9 @@
 }
 
 .nav-container a {
+    font-family: Arial;
+    font-weight:700;
+    font-size: 90% ;
     text-align: right;
     color: white;
     padding: .5em;

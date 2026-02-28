@@ -1,16 +1,27 @@
-.main {
+#main {
   max-width: 100vw;
 }
 
 .card {
   margin: 2em;
   display: flex;
+  max-width: 100vw;
 }
 
 .card-text {
   margin: 1em;
-      margin-right: 4em;
+  margin-right: 4em;
+}
 
+.card-text h1 {
+  font-size: 5em;
+}
+
+.card-text h2 {
+  font-size: 3em;
+}
+.card-text h3{
+  font-size: 2em;
 }
 
 .coming-soon {
@@ -28,32 +39,33 @@ a:hover {
 }
 
 .headshot {
-  max-width: 40vw;
-  max-height: 40vh;
+  margin-top: 5em;
+  max-width: 40em;
+  max-height: 40em;
   border-radius: 50%;
 }
 
 #skills {
-    margin-left:1em;
-    margin-right:1em;
+  margin-left: 1em;
+  margin-right: 1em;
 }
 
 .skills-box {
-    display: flex;
-    flex-wrap: wrap;
-   margin-left: 4em;
-    margin-right: 4em;
-    align-items: center;
-    justify-content: center;
-    /* max-width: 100vw; */
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 4em;
+  margin-right: 4em;
+  align-items: center;
+  justify-content: center;
+  /* max-width: 100vw; */
 }
 
 .skills {
-    background-color: #2B8272;
-    margin: 1em;
-    flex-wrap: wrap;
-    padding: 1em;
-    max-width: fit-content;
-    border-radius: 40px;
-    text-align: center;
+  background-color: #2B8272;
+  margin: 1em;
+  flex-wrap: wrap;
+  padding: 1em;
+  max-width: fit-content;
+  border-radius: 40px;
+  text-align: center;
 }

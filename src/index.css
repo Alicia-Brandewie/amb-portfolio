@@ -1,5 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Calligraffitti&family=Caveat:wght@400..700&family=Charmonman:wght@400;700&family=Edu+VIC+WA+NT+Hand:wght@400..700&family=Kalam:wght@300;400;700&family=Marck+Script&family=Mrs+Sheppards&family=Oooh+Baby&family=Over+the+Rainbow&family=Reenie+Beanie&family=Rock+Salt&family=Zeyada&display=swap');
+
+.reenie-beanie-regular {
+  font-family: "Reenie Beanie", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.kalam-light {
+  font-family: "Kalam", cursive;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.kalam-regular {
+  font-family: "Kalam", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.kalam-bold {
+  font-family: "Kalam", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.calligraffitti-regular {
+  font-family: "Calligraffitti", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.rock-salt-regular {
+  font-family: "Rock Salt", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+
+
+
+
+
+
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 
+  /* system-ui,  */
+  Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
   color: white;
@@ -11,3 +59,15 @@
   background-position-x: right;
   background-position-y: bottom;
 }
+
+h1 {
+  font-family: 
+  /* "Reenie Beanie"; */
+  /* "Kalam"; */
+  "Rock Salt";
+  /* "Calligraffitti"; */
+}
+/* 
+p,a {
+  font-family: Arial;
+} */

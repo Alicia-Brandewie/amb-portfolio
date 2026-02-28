@@ -12,11 +12,11 @@ function Portfolio() {
                     <div class="grid-project img-1">
                         <div class='project-info'>
                             <h1>NAVIgator</h1>
-                            <h3>Travel compainion app for planning, with whimsical design</h3>
+                            <h4>Travel compainion app for planning, with whimsical design</h4>
                             <div class='skills-box'>
-                                <p class='skills'>Python</p>
-                                <p class='skills'>PostgreSQL</p>
-                                <p class='skills'>Django</p>
+                                <h3 class='skills'>Python</h3>
+                                <h3 class='skills'>PostgreSQL</h3>
+                                <h3 class='skills'>Django</h3>
                             </div>
                             <div class='project-links'>
                                 <h3><a class='link-content' href='https://navi-gator-app-939c9d3f9b64.herokuapp.com//' target="_blank">Start navigating</a></h3>
@@ -30,11 +30,11 @@ function Portfolio() {
                     <div class="grid-project img-2">
                         <div class='project-info'>
                             <h1>SoundCircle</h1>
-                            <h3>Catalogue your favorite songs and get social with other users </h3>
+                            <h4>Catalogue your favorite songs and get social with other users </h4>
                             <div class='skills-box'>
-                                <p class='skills'>Express Server</p>
-                                <p class='skills'>React</p>
-                                <p class='skills'>MongoDB</p>
+                                <h3 class='skills'>Express Server</h3>
+                                <h3 class='skills'>React</h3>
+                                <h3 class='skills'>MongoDB</h3>
                             </div>
                             <div class='project-links'>
                                 <h3><a class='link-content' href='https://soundcircle.netlify.app/' target="_blank">Explore SoundCircle</a></h3>
@@ -49,13 +49,13 @@ function Portfolio() {
                     <div class="grid-project img-3">
                         <div class='project-info'>
                             <h1>Poppins' Bag</h1>
-                            <h3>Track your events & supplies</h3>
+                            <h4>Track your events & supplies</h4>
                             <div class='skills-box' >
-                                <p class='skills'>Express Server</p>
-                                <p class='skills'>MongoDB</p>
-                                <p class='skills'>JavaScript</p>
-                                <p class='skills'>Node</p>
-                                <p class='skills'>EJS</p>
+                                <h3 class='skills'>Express Server</h3>
+                                <h3 class='skills'>MongoDB</h3>
+                                <h3 class='skills'>JavaScript</h3>
+                                <h3 class='skills'>Node</h3>
+                                <h3 class='skills'>EJS</h3>
                             </div>
                             <div class='project-links'>
                                 <h3><a class='link-content' href='https://poppinss-bag-8009da65f7ed.herokuapp.com/' target="_blank">Organize your things</a></h3>
@@ -71,9 +71,9 @@ function Portfolio() {
                             <h1>Memory Maven</h1>
                             <h3>The classic matching game, featuring randomly generated arrangment of symbols, a limited amount of attempts, and rest. </h3>
                             <div class='skills-box' >
-                                <p class='skills'>JavaScript</p>
-                                <p class='skills'>HTML</p>
-                                <p class='skills'>CSS</p>
+                                <h3 class='skills'>JavaScript</h3>
+                                <h3 class='skills'>HTML</h3>
+                                <h3 class='skills'>CSS</h3>
                             </div>
                             <div class='project-links'>
                                 <h3><a class='link-content' href='https://alicia-brandewie.github.io/memory-maven/' target="_blank">Play the game</a></h3>
@@ -110,12 +110,12 @@ function Portfolio() {
                     <div class='project-header'>
                         <h1>NAVIgator</h1>
                         <img src='src/assets/Navi.png' className="logo" alt="NAVIgator logo" />
-                        <p>Travel compainion app for planning, with whimsical design</p>
+                        <h3>Travel compainion app for planning, with whimsical design</h3>
                     </div>
                     <div class='skills-box'>
-                        <p class='skills'>Python</p>
-                        <p class='skills'>PostgreSQL</p>
-                        <p class='skills'>Django</p>
+                        <h3 class='skills'>Python</h3>
+                        <h3 class='skills'>PostgreSQL</h3>
+                        <h3 class='skills'>Django</h3>
                     </div>
                     <div class='project-links'>
                         <a class='link-content' href='https://navi-gator-app-939c9d3f9b64.herokuapp.com//' target="_blank">Start navigating</a>
@@ -128,12 +128,12 @@ function Portfolio() {
                     <div class='project-header'>
                         <h1>SoundCircle</h1>
                         <img src='src/assets/SoundCircle transparent.png' className="logo" alt="SoundCircle logo" />
-                        <p>Catalogue your favorite songs and get social with other users</p>
+                        <h3>Catalogue your favorite songs and get social with other users</h3>
                     </div>
                     <div class='skills-box'>
-                        <p class='skills'>Express Server</p>
-                        <p class='skills'>React</p>
-                        <p class='skills'>MongoDB</p>
+                        <h3 class='skills'>Express Server</h3>
+                        <h3 class='skills'>React</h3>
+                        <h3 class='skills'>MongoDB</h3>
                     </div>
                     <div class='project-links'>
                         <a class='link-content' href='https://soundcircle.netlify.app/' target="_blank">Explore SoundCircle</a>
@@ -148,14 +148,14 @@ function Portfolio() {
                     <div class='project-header'>
                         <h1>Poppins' Bag</h1>
                         <img src="src/assets/Poppings's Bag icon.jpg" className="logo" alt="Poppins' logo" />
-                        <p>A real-world solution, this application lets you track your event supplies</p>
+                        <h3>A real-world solution, this application lets you track your event supplies</h3>
                     </div>
                     <div class='skills-box' >
-                        <p class='skills'>Express Server</p>
-                        <p class='skills'>MongoDB</p>
-                        <p class='skills'>JavaScript</p>                    <p class='skills'>JavaScript</p>
-                        <p class='skills'>Node</p>
-                        <p class='skills'>EJS</p>
+                        <h3 class='skills'>Express Server</h3>
+                        <h3 class='skills'>MongoDB</h3>
+                        <h3 class='skills'>JavaScript</h3>                    <h3 class='skills'>JavaScript</h3>
+                        <h3 class='skills'>Node</h3>
+                        <h3 class='skills'>EJS</h3>
                     </div>
                     <div class='project-links'>
                         <a class='link-content' href='https://poppinss-bag-8009da65f7ed.herokuapp.com/' target="_blank">Organize your things</a>
@@ -167,12 +167,12 @@ function Portfolio() {
                     <div class='project-header'>
                         <h1>Memory Maven</h1>
                         <img src='src/assets/Memory Maven  image.png' className="logo" alt="MM game logo" />
-                        <p>The classic matching game, featuring randomly generated arrangment of symbols, a limited amount of attempts, and rest. </p>
+                        <h3>The classic matching game, featuring randomly generated arrangment of symbols, a limited amount of attempts, and rest. </h3>
                     </div>
                     <div class='skills-box' >
-                        <p class='skills'>JavaScript</p>
-                        <p class='skills'>HTML</p>
-                        <p class='skills'>CSS</p>
+                        <h3 class='skills'>JavaScript</h3>
+                        <h3 class='skills'>HTML</h3>
+                        <h3 class='skills'>CSS</h3>
                     </div>
                     <div class='project-links'>
                         <a class='link-content' href='https://alicia-brandewie.github.io/memory-maven/' target="_blank">Play the game</a>

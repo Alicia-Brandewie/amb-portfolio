@@ -17,7 +17,7 @@
     font-weight: bold;
     justify-content: flex-end;
     align-items: center;
-    width: 100%;
+    width: 100vw;
 }
 
 .nav-container a {
@@ -31,4 +31,4 @@
 
 .nav-container a:hover {
     color: #FF4C6AFF;
-}npm run :-moz-drag-over
+}

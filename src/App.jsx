@@ -3,6 +3,7 @@ import './App.css'
 import Footer from './Footer/Footer';
 import NavBar from './NavBar/NavBar'
 import Portfolio from './Portfolio/Portfolio'
+import eyebrow from './assets/eyebrow.jpg'
 
 function App() {
 
@@ -12,7 +13,7 @@ function App() {
 
       <div id='main'>
         <div class="card">
-          <img src='/eyebrow.jpg' class='headshot' alt="Headshot of Alicia looking to the side with an eyebrow raised" />
+          <img src={eyebrow} class='headshot' alt="Headshot of Alicia looking to the side with an eyebrow raised" />
           <div class="card-text">
             <h2> Hello! </h2>
             <h1>Alicia Brandewie</h1>

@@ -189,21 +189,21 @@
 }
 
 .img-1 {
-    background-image: url('src/assets/Navi.png');
+    background-image: url('/Navi.png');
 }
 
 .img-2 {
-    background-image: url('src/assets/SoundCircle transparent.png');
+    background-image: url('/SoundCircle transparent.png');
     background-position: center;
 }
 
 .img-3 {
-    background-image: url("src/assets/Poppings's Bag icon.jpg");
+    background-image: url("/Poppings's Bag icon.jpg");
 }
 
 
 .img-4 {
-    background-image: url("src/assets/Memory Maven  image.png");
+    background-image: url("/Memory Maven  image.png");
 }
 
 .project-info {

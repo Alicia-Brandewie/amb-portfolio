@@ -12,7 +12,7 @@ function App() {
 
       <div id='main'>
         <div class="card">
-          <img src='src/assets/eyebrow.jpg' class='headshot' alt="Headshot of Alicia looking to the side with an eyebrow raised" />
+          <img src='/eyebrow.jpg' class='headshot' alt="Headshot of Alicia looking to the side with an eyebrow raised" />
           <div class="card-text">
             <h2> Hello! </h2>
             <h1>Alicia Brandewie</h1>

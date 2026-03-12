@@ -15,7 +15,7 @@ function App() {
         <div class="card">
           <img src={eyebrow} class='headshot' alt="Headshot of Alicia looking to the side with an eyebrow raised" />
           <div class="card-text">
-            <h2> Hello! </h2>
+            <h2>Welcome to my corner of the internet. </h2>
             <h1>Alicia Brandewie</h1>
             <h3>I'm a full-stack software engineer,</h3>
             <h3>who came to Python via people and poetry.</h3>

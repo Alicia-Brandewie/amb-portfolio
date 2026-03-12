@@ -6,22 +6,22 @@
 
 @media (min-width: 100Px) and (max-width: 480px) {
     .main-grid li {
-        width: 90vw;
+        width: 100vw;
         height: 100vw;
         display: inline-block;
     }
 
-    .project-info h1 {
+    /* .project-info h1 {
         padding-top: 1.25em;
         padding-left: 2em;
         padding-right: 2em;
-    }
+    } */
 
-    .project-info h4 {
+    /* .project-info h4 {
         font-size: 1em;
-    }
+    } */
 
-    .portfolio-skills {
+    /* .portfolio-skills {
         background-color: rgb(43, 130, 114);
         margin: .75em;
         flex-wrap: wrap;
@@ -30,37 +30,37 @@
         border-radius: 40px;
         text-align: center;
         font-size: 1em;
-    }
+    } */
 
-    .project-links a {
+    /* .project-links a {
         font-style: italic;
         font-weight: 700;
         font-size: 1em;
         color: #FF4C6AFF;
-    }
+    } */
 }
 
 @media (min-width: 481Px) and (max-width: 768px) {
     .main-grid li {
-        width: 70vw;
-        height: 70vw;
+        width: 60vw;
+        height: 60vw;
         display: inline-block;
         margin: 1em;
     }
 
-    .project-info h1 {
+    /* .project-info h1 {
         padding-top: 1.25em;
         margin-top: .5em;
         padding-left: 2em;
         padding-right: 2em;
-    }
+    } */
 
-    .project-info h4 {
+    /* .project-info h4 {
         font-size: 1em;
         padding: 1em;
-    }
+    } */
 
-    .portfolio-skills {
+    /* .portfolio-skills {
         background-color: rgb(43, 130, 114);
         margin: 1em;
         flex-wrap: wrap;
@@ -76,7 +76,7 @@
         font-weight: 700;
         font-size: 1.25em;
         color: #FF4C6AFF;
-    }
+    } */
 
 }
 
@@ -88,18 +88,17 @@
         margin: 1em;
     }
 
-    .project-info h1 {
+    /* .project-info h1 {
         padding-top: 1em;
         margin-top: .5em;
         padding-left: 2em;
         padding-right: 2em;
-    }
+    } */
 
-    .project-info h4 {
+    /* .project-info h4 {
         font-size: 1rem;
-        /* padding: 1em; */
-    }
-
+    } */
+/* 
     .portfolio-skills {
         background-color: rgb(43, 130, 114);
         flex-wrap: wrap;
@@ -116,7 +115,7 @@
         font-weight: 700;
         font-size: 1.25em;
         color: #FF4C6AFF;
-    }
+    } */
 }
 
 @media (min-width: 1280Px) {
@@ -127,19 +126,19 @@
         margin: 1em;
     }
 
-    .project-info h1 {
-        padding-top: 1.25em;
-        margin-top: .5em;
-        padding-left: 2em;
-        padding-right: 2em;
-    }
+    /* .project-info h1 {
+        font-size:2vw;
+        padding-top: 2vw;
+        margin-top: 1vw;
+        padding-left: 2vw;
+        padding-right: 2vw;
+    } */
 
-    .project-info h4 {
+    /* .project-info h4 {
         font-size: 1em;
-        /* padding: 1em; */
-    }
+    } */
 
-    .portfolio-skills {
+    /* .portfolio-skills {
         background-color: rgb(43, 130, 114);
         margin: .75em;
         flex-wrap: wrap;
@@ -155,9 +154,70 @@
         font-weight: 700;
         font-size: 1em;
         color: #FF4C6AFF;
-    }
+    } */
 
 }
+
+
+
+  .project-info h1 {
+        font-size:2em;
+        font-weight: 700;
+                /* padding: .5em; */
+
+        /* padding-top: .25em; */
+       /*  padding-left: 2em;
+        padding-right: 2em; */
+    }
+
+.project-info h4 {
+        font-size: 1.3em;
+        /* margin: 0em .5em .5em .5em; */
+        /* margin: 0; */
+    }
+
+.project-info h3 {
+        font-size: 1.3em;
+        /* padding: .5em; */
+          /* margin-left: 1em;
+        margin-right: 1em; */
+        /* margin: 0; */
+    }
+
+    .portfolio-skills {
+        background-color: rgb(43, 130, 114);
+        flex-wrap: wrap;
+        padding-left: .75em;
+        padding-right: .75em;
+        max-width: fit-content;
+        border-radius: 40px;
+        text-align: center;
+        font-size: 1.3em;
+    }
+
+    .project-links a {
+        /* font-style: italic; */
+        /* font-weight: 700; */
+        /* font-size: 2vw; */
+        color: #FF4C6AFF;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .main-grid {
     margin: 1em 0 0 0;
@@ -190,15 +250,20 @@
 
 .img-1 {
     background-image: url('/Navi.png');
+    background-color: white;
+        background-position: center;
+
 }
 
 .img-2 {
     background-image: url('/SoundCircle transparent.png');
+        background-color: white;
     background-position: center;
 }
 
 .img-3 {
     background-image: url("/Poppings's Bag icon.jpg");
+    background-size: 10vw;
 }
 
 
@@ -216,6 +281,12 @@
     overflow-wrap: break-word;
     transition: all 0.4s ease-in-out;
     transform: scale(0);
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+        justify-content: space-around;
+            /* justify-content: center; */
+
 }
 
 
@@ -226,10 +297,10 @@
     justify-content: center;
 }
 
-.project-links {
+/* .project-links {
     display: flex;
     justify-content: center;
-}
+} */
 
 .project-links a:hover {
     color: #C43C54FF;

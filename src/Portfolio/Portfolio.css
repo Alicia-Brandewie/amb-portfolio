@@ -11,6 +11,34 @@
         display: inline-block;
     }
 
+    .img-1 {
+        background-image: url('/Navi.png');
+        background-color: white;
+        background-position: center;
+        background-size: 80vw;
+    }
+
+    .img-2 {
+        background-image: url('/SoundCircle transparent.png');
+        background-color: white;
+        background-position: center;
+        background-size: 100vw;
+    }
+
+    .img-3 {
+        background-image: url("/Poppings's Bag icon.jpg");
+        background-size: 30vw;
+        background-position: center;
+
+    }
+
+    .img-4 {
+        background-image: url("/Memory Maven  image.png");
+        background-position: left;
+        background-size: 300vw;
+    }
+
+
     /* .project-info h1 {
         padding-top: 1.25em;
         padding-left: 2em;
@@ -46,6 +74,33 @@
         height: 60vw;
         display: inline-block;
         margin: 1em;
+    }
+
+    .img-1 {
+        background-image: url('/Navi.png');
+        background-color: white;
+        background-position: center;
+        background-size: 50vw;
+    }
+
+    .img-2 {
+        background-image: url('/SoundCircle transparent.png');
+        background-color: white;
+        background-position: center;
+        background-size: 60vw;
+    }
+
+    .img-3 {
+        background-image: url("/Poppings's Bag icon.jpg");
+        background-size: 20vw;
+        background-position: center;
+
+    }
+
+    .img-4 {
+        background-image: url("/Memory Maven  image.png");
+        background-position: left;
+        background-size: 200vw;
     }
 
     /* .project-info h1 {
@@ -88,6 +143,33 @@
         margin: 1em;
     }
 
+    .img-1 {
+        background-image: url('/Navi.png');
+        background-color: white;
+        background-position: center;
+        background-size: 30vw;
+    }
+
+    .img-2 {
+        background-image: url('/SoundCircle transparent.png');
+        background-color: white;
+        background-position: center;
+        background-size: 40vw;
+    }
+
+    .img-3 {
+        background-image: url("/Poppings's Bag icon.jpg");
+        background-size: 12vw;
+        background-position: center;
+
+    }
+
+    .img-4 {
+        background-image: url("/Memory Maven  image.png");
+        background-position: left;
+        background-size: 100vw;
+    }
+
     /* .project-info h1 {
         padding-top: 1em;
         margin-top: .5em;
@@ -98,7 +180,7 @@
     /* .project-info h4 {
         font-size: 1rem;
     } */
-/* 
+    /* 
     .portfolio-skills {
         background-color: rgb(43, 130, 114);
         flex-wrap: wrap;
@@ -124,6 +206,35 @@
         height: 30vw;
         display: inline-block;
         margin: 1em;
+    }
+
+    .img-1 {
+        background-image: url('/Navi.png');
+        background-color: white;
+        background-position: center;
+        background-size: 25vw;
+    }
+
+    .img-2 {
+        background-image: url('/SoundCircle transparent.png');
+        background-color: white;
+        background-position: center;
+        background-size: 35vw;
+    }
+
+
+    .img-3 {
+        background-image: url("/Poppings's Bag icon.jpg");
+        background-size: 10vw;
+        background-position: center;
+
+    }
+
+
+    .img-4 {
+        background-image: url("/Memory Maven  image.png");
+        background-position: left;
+        background-size: 100vw;
     }
 
     /* .project-info h1 {
@@ -160,47 +271,41 @@
 
 
 
-  .project-info h1 {
-        font-size:2em;
-        font-weight: 700;
-                /* padding: .5em; */
+.project-info h1 {
+    font-size: 2em;
+    font-weight: 700;
+    /* padding: .5em; */
 
-        /* padding-top: .25em; */
-       /*  padding-left: 2em;
+    /* padding-top: .25em; */
+    /*  padding-left: 2em;
         padding-right: 2em; */
-    }
+}
 
 .project-info h4 {
-        font-size: 1.3em;
-        /* margin: 0em .5em .5em .5em; */
-        /* margin: 0; */
-    }
+    font-size: 1.3em;
+    /* margin: 0em .5em .5em .5em; */
+    /* margin: 0; */
+}
 
 .project-info h3 {
-        font-size: 1.3em;
-        /* padding: .5em; */
-          /* margin-left: 1em;
+    font-size: 1.3em;
+    /* padding: .5em; */
+    /* margin-left: 1em;
         margin-right: 1em; */
-        /* margin: 0; */
-    }
+    /* margin: 0; */
+}
 
-    .portfolio-skills {
-        background-color: rgb(43, 130, 114);
-        flex-wrap: wrap;
-        padding-left: .75em;
-        padding-right: .75em;
-        max-width: fit-content;
-        border-radius: 40px;
-        text-align: center;
-        font-size: 1.3em;
-    }
 
-    .project-links a {
-        /* font-style: italic; */
-        /* font-weight: 700; */
-        /* font-size: 2vw; */
-        color: #FF4C6AFF;
-    }
+.portfolio-skills {
+    background-color: rgb(43, 130, 114);
+    flex-wrap: wrap;
+    padding-left: .75em;
+    padding-right: .75em;
+    max-width: fit-content;
+    border-radius: 40px;
+    text-align: center;
+    font-size: 1.3em;
+}
 
 
 
@@ -243,11 +348,14 @@
     border-radius: 50%;
     position: relative;
     box-shadow:
-        inset 0 0 0 1em #2b8272,
-        0 1px 2px #2b8272;
+
+        inset 0 0 0 1em rgb(43, 130, 114),
+        inset 0 0 0 1px rgb(43, 130, 114);
+
     transition: all 0.4s ease-in-out;
 }
 
+/* 
 .img-1 {
     background-image: url('/Navi.png');
     background-color: white;
@@ -259,17 +367,22 @@
     background-image: url('/SoundCircle transparent.png');
         background-color: white;
     background-position: center;
-}
+} */
 
-.img-3 {
+/* .img-3 {
     background-image: url("/Poppings's Bag icon.jpg");
     background-size: 10vw;
-}
+} */
 
-
+/* 
 .img-4 {
     background-image: url("/Memory Maven  image.png");
-}
+        background-position: left;
+            background-size: 100vw;
+
+        
+
+} */
 
 .project-info {
     position: absolute;
@@ -284,9 +397,12 @@
     display: flex;
     flex-direction: column;
     /* flex-wrap: wrap; */
-        justify-content: space-around;
-            /* justify-content: center; */
+    justify-content: space-around;
+    /* justify-content: center; */
+}
 
+.project-info .link-content {
+    font-weight: 600;
 }
 
 
@@ -302,15 +418,18 @@
     justify-content: center;
 } */
 
-.project-links a:hover {
-    color: #C43C54FF;
+.project-info .link-content:hover {
+    text-shadow: 0px .5em .5em black;
+
+    /* color: #C43C54FF; */
+
 }
 
 
 .grid-project:hover {
     box-shadow:
-        inset 0 0 0 1px rgb(43, 130, 114),
-        0 1px 2px black;
+        inset 0 0 0 1em rgb(43, 130, 114),
+        inset 0 0 0 1px rgb(43, 130, 114);
 }
 
 .grid-project:hover .project-info {
@@ -318,8 +437,8 @@
     opacity: 1;
 }
 
-.grid-project:over .project-info p {
+/* .grid-project:over .project-info p {
     opacity: 1;
-}
+} */
 
 /* from https://tympanus.net/codrops/2012/08/08/circle-hover-effects-with-css-transitions/ */

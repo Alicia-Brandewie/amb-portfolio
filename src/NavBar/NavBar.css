@@ -32,4 +32,5 @@
 
 .nav-container a:hover {
     color: #FF4C6AFF;
+        text-shadow: 0px .25em 1em #FF4C6AFF;
 }

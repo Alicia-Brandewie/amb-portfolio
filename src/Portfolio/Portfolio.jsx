@@ -20,9 +20,9 @@ function Portfolio() {
                             </div>
 
                             {/* <div class='project-links'> */}
-                            <h3>Repo</h3>
+                            {/* <h3>Repo</h3> */}
 
-                            {/* <h3><a class='link-content' href='https://github.com/Alicia-Brandewie/NAVIgator' target="_blank">Visit the repo</a></h3> */}
+                            <h3><a  class='link-content' href='https://github.com/Alicia-Brandewie/NAVIgator' target="_blank">Repo</a></h3>
                             {/* </div> */}
 
 
@@ -41,9 +41,9 @@ function Portfolio() {
                                 <h3 class='portfolio-skills'>MongoDB</h3>
                             </div>
                             {/* <div class='project-links'> */}
-                            <h3>Repo</h3>
-                            {/* <h3><a class='link-content' href='https://github.com/OliverPhillips1229/sound-circle-front-end' target="_blank">Visit the front-end repo</a></h3>
-                                <h3><a class='link-content' href='https://github.com/mrodavis/sound-circle-be' target="_blank">Visit the back-end repo</a></h3> */}
+                            {/* <h3>Repo</h3> */}
+                            <h3><a class='link-content' href='https://github.com/OliverPhillips1229/sound-circle-front-end' target="_blank">Front-end repo</a></h3>
+                                <h3><a class='link-content' href='https://github.com/mrodavis/sound-circle-be' target="_blank">Back-end repo</a></h3>
                             {/* </div> */}
                         </div>
                     </div>
@@ -62,8 +62,8 @@ function Portfolio() {
                                 <h3 class='portfolio-skills'>EJS</h3>
                             </div>
                             {/* <div class='project-links'> */}
-                            <h3>Repo</h3>
-                            {/* <h3><a class='link-content' href='https://github.com/Alicia-Brandewie/poppinss_bag' target="_blank">Visit the repo</a></h3> */}
+                            {/* <h3>Repo</h3> */}
+                            <h3><a class='link-content' href='https://github.com/Alicia-Brandewie/poppinss_bag' target="_blank">Visit the repo</a></h3>
                             {/* </div> */}
                         </div>
                     </div>
@@ -80,8 +80,8 @@ function Portfolio() {
                                 <h3 class='portfolio-skills'>CSS</h3>
                             </div>
                             {/* <div class='project-links'> */}
-                            <h3>Repo</h3>
-                            {/* <h3><a class='link-content' href='https://github.com/Alicia-Brandewie/memory-maven' target="_blank"> Visit the repo</a></h3> */}
+                            {/* <h3>Repo</h3> */}
+                            <h3><a class='link-content' href='https://github.com/Alicia-Brandewie/memory-maven' target="_blank"> Visit the repo</a></h3>
                             {/* </div> */}
                         </div>
                     </div>

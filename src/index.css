@@ -36,18 +36,9 @@
   font-style: normal;
 }
 
-
-
-
-
-
-
-
-
 :root {
-  font-family: 
-  /* system-ui,  */
-  Avenir, Helvetica, Arial, sans-serif;
+  font-family:
+    Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
   color: white;
@@ -61,13 +52,9 @@
 }
 
 h1 {
-  font-family: 
-  /* "Reenie Beanie"; */
-  /* "Kalam"; */
-  "Rock Salt";
+  font-family:
+    /* "Reenie Beanie"; */
+    /* "Kalam"; */
+    "Rock Salt";
   /* "Calligraffitti"; */
 }
-/* 
-p,a {
-  font-family: Arial;
-} */

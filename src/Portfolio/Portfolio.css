@@ -37,35 +37,6 @@
         background-position: left;
         background-size: 300vw;
     }
-
-
-    /* .project-info h1 {
-        padding-top: 1.25em;
-        padding-left: 2em;
-        padding-right: 2em;
-    } */
-
-    /* .project-info h4 {
-        font-size: 1em;
-    } */
-
-    /* .portfolio-skills {
-        background-color: rgb(43, 130, 114);
-        margin: .75em;
-        flex-wrap: wrap;
-        padding: .75em;
-        max-width: fit-content;
-        border-radius: 40px;
-        text-align: center;
-        font-size: 1em;
-    } */
-
-    /* .project-links a {
-        font-style: italic;
-        font-weight: 700;
-        font-size: 1em;
-        color: #FF4C6AFF;
-    } */
 }
 
 @media (min-width: 481Px) and (max-width: 768px) {
@@ -102,37 +73,6 @@
         background-position: left;
         background-size: 200vw;
     }
-
-    /* .project-info h1 {
-        padding-top: 1.25em;
-        margin-top: .5em;
-        padding-left: 2em;
-        padding-right: 2em;
-    } */
-
-    /* .project-info h4 {
-        font-size: 1em;
-        padding: 1em;
-    } */
-
-    /* .portfolio-skills {
-        background-color: rgb(43, 130, 114);
-        margin: 1em;
-        flex-wrap: wrap;
-        padding: 1em;
-        max-width: fit-content;
-        border-radius: 40px;
-        text-align: center;
-        font-size: 1em;
-    }
-
-    .project-links a {
-        font-style: italic;
-        font-weight: 700;
-        font-size: 1.25em;
-        color: #FF4C6AFF;
-    } */
-
 }
 
 @media (min-width: 769Px) and (max-width: 1279px) {
@@ -169,35 +109,6 @@
         background-position: left;
         background-size: 100vw;
     }
-
-    /* .project-info h1 {
-        padding-top: 1em;
-        margin-top: .5em;
-        padding-left: 2em;
-        padding-right: 2em;
-    } */
-
-    /* .project-info h4 {
-        font-size: 1rem;
-    } */
-    /* 
-    .portfolio-skills {
-        background-color: rgb(43, 130, 114);
-        flex-wrap: wrap;
-        padding-left: .75em;
-        padding-right: .75em;
-        max-width: fit-content;
-        border-radius: 40px;
-        text-align: center;
-        font-size: 1em;
-    }
-
-    .project-links a {
-        font-style: italic;
-        font-weight: 700;
-        font-size: 1.25em;
-        color: #FF4C6AFF;
-    } */
 }
 
 @media (min-width: 1280Px) {
@@ -236,65 +147,22 @@
         background-position: left;
         background-size: 100vw;
     }
-
-    /* .project-info h1 {
-        font-size:2vw;
-        padding-top: 2vw;
-        margin-top: 1vw;
-        padding-left: 2vw;
-        padding-right: 2vw;
-    } */
-
-    /* .project-info h4 {
-        font-size: 1em;
-    } */
-
-    /* .portfolio-skills {
-        background-color: rgb(43, 130, 114);
-        margin: .75em;
-        flex-wrap: wrap;
-        padding: .75em;
-        max-width: fit-content;
-        border-radius: 40px;
-        text-align: center;
-        font-size: .75em;
-    }
-
-    .project-links a {
-        font-style: italic;
-        font-weight: 700;
-        font-size: 1em;
-        color: #FF4C6AFF;
-    } */
-
 }
 
 
-
+/***** text *****/
 .project-info h1 {
     font-size: 2em;
     font-weight: 700;
-    /* padding: .5em; */
-
-    /* padding-top: .25em; */
-    /*  padding-left: 2em;
-        padding-right: 2em; */
 }
 
 .project-info h4 {
     font-size: 1.3em;
-    /* margin: 0em .5em .5em .5em; */
-    /* margin: 0; */
 }
 
 .project-info h3 {
     font-size: 1.3em;
-    /* padding: .5em; */
-    /* margin-left: 1em;
-        margin-right: 1em; */
-    /* margin: 0; */
 }
-
 
 .portfolio-skills {
     background-color: rgb(43, 130, 114);
@@ -307,23 +175,7 @@
     font-size: 1.3em;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/***** transitions *****/
 .main-grid {
     margin: 1em 0 0 0;
     padding: 0;
@@ -332,79 +184,35 @@
     text-align: center;
 }
 
-.main-grid:after,
-.grid-project:before {
-    content: '';
-    display: table;
-}
-
-.main-grid:after {
-    clear: both;
-}
-
 .grid-project {
     width: 100%;
     height: 100%;
     border-radius: 50%;
     position: relative;
     box-shadow:
-
-        inset 0 0 0 1em rgb(43, 130, 114),
-        inset 0 0 0 1px rgb(43, 130, 114);
-
-    transition: all 0.4s ease-in-out;
+        inset 0 0 0 1em rgba(43, 130, 114, 0.85),
+        inset 0 0 0 1em rgba(43, 130, 114, 0.85),
+        0 0 1px 1px rgba(43, 130, 114, 0.85);
+    transition: all .4s ease;
 }
-
-/* 
-.img-1 {
-    background-image: url('/Navi.png');
-    background-color: white;
-        background-position: center;
-
-}
-
-.img-2 {
-    background-image: url('/SoundCircle transparent.png');
-        background-color: white;
-    background-position: center;
-} */
-
-/* .img-3 {
-    background-image: url("/Poppings's Bag icon.jpg");
-    background-size: 10vw;
-} */
-
-/* 
-.img-4 {
-    background-image: url("/Memory Maven  image.png");
-        background-position: left;
-            background-size: 100vw;
-
-        
-
-} */
 
 .project-info {
     position: absolute;
-    background: rgba(43, 130, 114, 0.85);
     width: inherit;
     height: inherit;
     border-radius: 50%;
     overflow: hidden;
     overflow-wrap: break-word;
-    transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in;
     transform: scale(0);
     display: flex;
     flex-direction: column;
-    /* flex-wrap: wrap; */
     justify-content: space-around;
-    /* justify-content: center; */
 }
 
 .project-info .link-content {
     font-weight: 600;
 }
-
 
 .skills-box {
     display: flex;
@@ -413,32 +221,20 @@
     justify-content: center;
 }
 
-/* .project-links {
-    display: flex;
-    justify-content: center;
-} */
-
 .project-info .link-content:hover {
     text-shadow: 0px .5em .5em black;
-
-    /* color: #C43C54FF; */
-
 }
-
 
 .grid-project:hover {
     box-shadow:
-        inset 0 0 0 1em rgb(43, 130, 114),
-        inset 0 0 0 1px rgb(43, 130, 114);
+        inset 0 0 0em 1em rgba(43, 130, 114, 0.85),
+        inset 0 0 1em 25em rgba(43, 130, 114, 0.85),
+        0 0 1px 1px rgba(43, 130, 114, 0.85);
 }
 
 .grid-project:hover .project-info {
     transform: scale(1);
     opacity: 1;
 }
-
-/* .grid-project:over .project-info p {
-    opacity: 1;
-} */
 
 /* from https://tympanus.net/codrops/2012/08/08/circle-hover-effects-with-css-transitions/ */

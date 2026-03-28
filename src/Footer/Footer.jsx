@@ -17,7 +17,7 @@ function Footer() {
                     <img src={Github} class="company-logo" alt="GitHub icon" />
                 </a>
 
-                <a href='mailto:alicia.brandewie@gmail.com' target="_blank">
+                <a href='mailto:alicia.brandewie@proton.me' target="_blank">
                     <img src={Email} class="company-logo" alt="email icon" />
                 </a>
             </div>

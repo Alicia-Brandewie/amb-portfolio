@@ -11,7 +11,7 @@ function Portfolio() {
                 <li>
                     <div class="grid-project img-1">
                         <div class='project-info'>
-                            <h1><a class='link-content' href='https://navi-gator-app-939c9d3f9b64.herokuapp.com//' target="_blank">NAVIgator</a></h1>
+                            <h1><a class='link-content' href='https://navi-gator-app-939c9d3f9b64.herokuapp.com/' target="_blank">NAVIgator</a></h1>
                             <h4>Travel compainion app for planning, with whimsical design</h4>
                             <div class='skills-box'>
                                 <h3 class='portfolio-skills'>Python</h3>
